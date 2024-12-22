@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentor Profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Header -->
+  <header class="bg-white shadow-sm">
+    <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+      <img src="./images/logo.png"/>
+      <nav class="space-x-6">
+        <a href="#" class="text-gray-700 hover:text-purple-600">Home</a>
+        <a href="#" class="text-gray-700 hover:text-purple-600">Interviewers</a>
+        <a href="#" class="text-gray-700 hover:text-purple-600">Blogs</a>
+      </nav>
+      <div class="space-x-4">
+        <button class="text-gray-700 hover:text-purple-600">Sign In</button>
+        <button class="bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700">Get Started</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative bg-gray-200 h-48 md:h-64">
+    <img src="./images/bg.jpg" alt="Background Image" class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-gray-800 opacity-20"></div>
+  </section>
+
+  <!-- Profile Section -->
+  <section class="max-w-7xl mx-auto bg-white rounded-lg shadow-md mt-18 p-6 ">
+    <div class="flex items-center">
+      <!-- Profile Picture -->
+      <div class="w-50 h-50  mb-50 md:w-36 md:h-36 rounded-full border-4 border-white overflow-hidden">
+        <img src="./images/profile.png" alt="Profile Picture" class="relative mt-[-20] h-48 w-48">
+      </div>
+      <!-- Profile Info -->
+      <div class="ml-6 mt-12">
+        <h2 class="text-2xl font-bold text-gray-800">Abir Khan 
+          <span class="ml-2 inline-block">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/30px-Flag_of_Bangladesh.svg.png" alt="Flag of Bangladesh" class="inline-block h-5 w-12 rounded">
+
+          </span>
+        </h2>
+        <p class="text-gray-600 text-lg">Senior Software Engineer at <span class="font-semibold text-gray-800">Growth Garage</span></p>
+        <div class="mt-4 space-y-1">
+          <p class="text-gray-500 flex items-center"><span class="material-icons text-gray-600 mr-2"><i class="bi bi-geo-alt mr-2"></i></span> Bangladesh</p>
+          <p class="text-gray-500 flex items-center"><span class="material-icons text-gray-600 mr-2"><i class="bi bi-clock mr-2"></i></span> Active a week ago</p>
+          <p class="text-gray-500 flex items-center"><span class="material-icons text-gray-600 mr-2"><i class="bi bi-arrow-repeat mr-2"></i></span> Usually responds in an hour</p>
+        </div>
+      </div>
+    
+      <!-- Action Buttons -->
+      <div class="ml-auto ">
+        <button class="bg-purple-600 text-white p-2 rounded-full h-14 w-14 p-4 hover:bg-purple-700 ">
+          <span><i class="far fa-comment"></i></span>
+        </button>
+        <button class="bg-gray-200 p-2 rounded-full hover:bg-gray-300 h-14 w-14">
+          <a href="https://mocktrails.com/login" class="btn btn-default shadow-lg border-1 mt-3"><i class="bi bi-heart"></i></a>
+        </button>
+      </div>
+    </div>
+    <div class="flex gap-5 ml-5">
+      <p class="text-purple-500">Overview</p>
+      <p>Reviews</p>
+    </div>
+  </section>
+ 
+
+  <!-- Main Content Section -->
+
+  <section class="max-w-5xl mx-auto mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- Left Column -->
+
+    <div>
+      <!-- Background Section -->
+      <p class="mb-12 text-xl text-balck-500 text-bold ">5+ Years of Experience in Software Engineering</p>
+
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-lg font-semibold text-gray-800">Background</h3>
+        <div class="mt-4">
+          <div class="flex justify-between items-center">
+            <p class="text-black-600 text-xl font-bold">Skills</p>
+            <span class="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm">Full Stack</span>
+          </div>
+          <div class="flex justify-between items-center mt-4">
+            <p class="text-black-600 text-xl font-bold">Fluent In</p>
+            <div class="space-x-2">
+              <span class="px-3 py-1 bg-gray-100 rounded-full text-sm">Bengali</span>
+              <span class="px-3 py-1 bg-gray-100 rounded-full text-sm">English</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experiences Section -->
+      <div class="bg-white p-6 mt-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-bold text-black-800">Experiences</h3>
+        <div class="mt-4 space-y-4">
+          <div class="flex items-start">
+            <div class="mr-3 sidebar-icon">
+              <i class="bi bi-briefcase"></i>
+           </div>
+            <div>
+              <h4 class="text-gray-800 font-semibold">Software Engineer</h4>
+              <p class="text-gray-600">ShareTrip Ltd (21 Dec 2024 - 21 Dec 2024)</p>
+              <p class="text-sm text-gray-500">Played key role in developing ShareTrip B2B Portal</p>
+            </div>
+          </div>
+          <div class="flex items-start">
+            <div class="mr-3 sidebar-icon">
+              <i class="bi bi-briefcase"></i>
+           </div>
+           <div>
+              <h4 class="text-gray-800 font-semibold">Software Engineer</h4>
+              <p class="text-gray-600">Field Nation (21 Dec 2024 - 21 Dec 2024)</p>
+              <p class="text-sm text-gray-500">Platform Operations Team</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div>
+      <!-- Community Statistics -->
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-bold text-black-800">Community Statistics</h3>
+        <div class="mt-4 grid grid-cols-2 gap-4">
+          <div class="flex items-center">
+            <div class="mr-3 esidebar-icon bg-danger-soft">
+              <i class="bi bi-view-list"></i>
+            </div>
+            <p class="text-gray-600">0 Completed Sessions</p>
+          </div>
+          <div class="flex items-center">
+            <div class="mr-3 esidebar-icon bg-nprimary-soft">
+              <i class="bi bi-calendar2-check"></i>
+            </div>
+            <p class="text-gray-600">3% Average Attendance</p>
+          </div>
+          <div class="flex items-center">
+            <div class="mr-3 esidebar-icon bg-success-soft">
+              <i class="bi bi-clock"></i>
+            </div>
+            <p class="text-gray-600">0 Minutes Mentoring Time</p>
+          </div>
+          <div class="flex items-center">
+            <div class="mr-3 esidebar-icon bg-warning-soft">
+              <i class="bi bi-mortarboard"></i>
+            </div>
+            <p class="text-gray-600">5 Years Experience</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sessions Section -->
+      <div class="bg-white p-6 mt-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-bold text-black-800">Sessions</h3>
+        <div class="flex justify-between items-center mt-4">
+          <div>
+            <p class="text-gray-800">Full Stack Developer Mock Interview</p>
+            <p class="text-gray-600 text-sm">40 minutes</p>
+          </div>
+          <p class="text-purple-600 font-semibold">450.00 ৳</p>
+        </div>
+        <!-- Book Now Button -->
+        <button id="bookNowButton" class="w-full mt-4 bg-purple-600 text-white py-2 rounded-lg hover:bg-purple-700" onclick="handleBooking()">Book Now</button>
+        
+        <!-- Hidden Confirmation Message -->
+        <p id="confirmationMessage" class="mt-4 text-center text-green-600 font-semibold hidden">Your booking was successful!</p>
+      </div>
+    </div>
+
+    <div class="bg-white p-6 mt-6 rounded-lg shadow-md">
+      <h3 class="text-lg font-semibold text-gray-800">Educations</h3>
+      <div class="mt-4 space-y-4">
+        <div class="flex items-start">
+          <div class="mr-3 sidebar-icon">
+            <i class="bi bi-mortarboard"></i>
+          </div>
+         <div>
+            <h4 class="text-gray-800 font-semibold">International Islamic University Chittagong</h4>
+            <p class="text-gray-600">Bachelors of Computer Science and Engineering •2024-2024</p>
+          </div>
+        </div>
+        <div class="flex items-start">
+          <div class="mr-3 sidebar-icon">
+            <i class="bi bi-mortarboard"></i>
+          </div>
+          <div>
+            <h4 class="text-gray-800 font-semibold">United International University</h4>
+            <p class="text-gray-600">Masters in CS in Data Science Track • 2024 • 2024</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </section>
+
+ <!-- Footer Section -->
+<footer class="bg-white border-t mt-10">
+  <div class="container mx-auto py-8 px-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Brand and Social Links -->
+    <div>
+      <h2 class="text-purple-600 text-xl font-bold">MockTrails</h2>
+      <p class="text-gray-600 mt-2">Empowering your journey, one Mock Interview at a time.</p>
+      <div class="flex mt-4 space-x-4">
+        <a href="#" class="text-purple-600 hover:text-purple-800">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M22.675 0H1.325C.593 0 0 .593 0 1.326v21.348C0 23.407.593 24 1.325 24h11.495v-9.294H9.845v-3.622h2.975V8.413c0-2.937 1.793-4.544 4.412-4.544 1.255 0 2.332.093 2.645.135v3.067h-1.815c-1.426 0-1.7.678-1.7 1.671v2.187h3.406l-.444 3.622h-2.962V24h5.807c.733 0 1.325-.593 1.325-1.326V1.326C24 .593 23.407 0 22.675 0z" />
+          </svg>
+        </a>
+        <a href="#" class="text-purple-600 hover:text-purple-800">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M22.23 5.924a8.36 8.36 0 01-2.356.646 4.13 4.13 0 001.824-2.277 8.27 8.27 0 01-2.606.988 4.13 4.13 0 00-7.045 3.766A11.717 11.717 0 013.174 4.293a4.125 4.125 0 001.28 5.507 4.15 4.15 0 01-1.87-.516v.052a4.14 4.14 0 003.315 4.053 4.203 4.203 0 01-1.864.07 4.14 4.14 0 003.872 2.877 8.3 8.3 0 01-5.125 1.764c-.333 0-.66-.02-.982-.06a11.716 11.716 0 006.29 1.843c7.547 0 11.675-6.252 11.675-11.675 0-.177-.005-.353-.013-.53A8.354 8.354 0 0024 4.557a8.23 8.23 0 01-2.357.646 4.13 4.13 0 001.824-2.277" />
+          </svg>
+        </a>
+        <a href="#" class="text-purple-600 hover:text-purple-800">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20.447 3.5H3.553A2.54 2.54 0 001 6.048v11.904A2.54 2.54 0 003.553 20.5h16.895A2.54 2.54 0 0023 17.952V6.048A2.54 2.54 0 0020.447 3.5zm-5.368 8.378l-4.29 2.252c-.272.143-.579.022-.722-.25a.535.535 0 01-.072-.264v-4.504a.535.535 0 01.072-.264c.143-.272.45-.393.722-.25l4.29 2.252a.53.53 0 010 .93z" />
+          </svg>
+        </a>
+        <a href="#" class="text-purple-600 hover:text-purple-800">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 .5C5.201.5.5 5.201.5 12c0 4.918 3.363 9.073 7.937 10.463.58.103.793-.253.793-.563v-2.002c-3.211.698-3.887-1.548-3.887-1.548-.529-1.342-1.291-1.7-1.291-1.7-1.055-.722.08-.707.08-.707 1.168.082 1.783 1.194 1.783 1.194 1.037 1.774 2.722 1.263 3.389.966.104-.751.408-1.264.744-1.555-2.564-.293-5.262-1.293-5.262-5.759 0-1.274.462-2.316 1.222-3.133-.122-.293-.53-1.477.117-3.08 0 0 .996-.318 3.265 1.214.948-.263 1.962-.394 2.97-.399 1.01.005 2.023.136 2.97.399 2.27-1.532 3.265-1.214 3.265-1.214.647 1.603.239 2.787.117 3.08.76.817 1.222 1.86 1.222 3.133 0 4.477-2.703 5.46-5.273 5.745.419.362.79 1.075.79 2.166v3.21c0 .313.213.668.798.558C20.64 21.065 24 16.916 24 12c0-6.799-4.701-11.5-12-11.5z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <div>
+      <h3 class="text-gray-800 font-semibold ">Services</h3>
+      <ul class="mt-4 space-y-2">
+        <li><a href="#" class="text-gray-600 hover:text-purple-600">Interviewers</a></li>
+        <li><a href="#" class="text-gray-600 hover:text-purple-600">Blogs</a></li>
+        <li><a href="#" class="text-gray-600 hover:text-purple-600">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Pages -->
+    <div>
+      <h3 class="text-gray-800 font-semibold">Pages</h3>
+      <ul class="mt-4 space-y-2">
+        <li><a href="#" class="text-gray-600 hover:text-purple-600">Terms and Condition</a></li>
+        <li><a href="#" class="text-gray-600 hover:text-purple-600">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="bg-gray-50 text-center py-4">
+    <p class="text-sm text-gray-500">&copy; 2024 All rights reserved.</p>
+  </div>
+</footer>
+
+
+  <!-- JavaScript -->
+  <script>
+    function handleBooking() {
+      // Display the confirmation message
+      const confirmationMessage = document.getElementById("confirmationMessage");
+      confirmationMessage.classList.remove("hidden");
+      
+      // Hide the "Book Now" button
+      const bookNowButton = document.getElementById("bookNowButton");
+      bookNowButton.style.display = "none";
+    }
+  </script>
+</body>
+</html>
